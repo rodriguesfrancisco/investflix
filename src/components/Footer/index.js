@@ -1,11 +1,17 @@
 import React from 'react';
 import { FooterBase } from './styles';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+      <a href="https://github.com/rodriguesfrancisco/xicoflix" target="_blank" rel="noopener noreferrer"
+        style={{ marginRight: 20 }} title="Github">
+        <FiGithub style={{ fontSize: '25' }} />
+      </a>
+      <a href="https://www.linkedin.com/in/franciscovrodrigues/" target="_blank" rel="noopener noreferrer"
+        title="LinkedIn">
+        <FiLinkedin style={{ fontSize: '25' }} />
       </a>
       <p>
         Orgulhosamente criado durante a
