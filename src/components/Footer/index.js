@@ -5,7 +5,7 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://github.com/rodriguesfrancisco/xicoflix" target="_blank" rel="noopener noreferrer"
+      <a href="https://github.com/rodriguesfrancisco/investflix" target="_blank" rel="noopener noreferrer"
         style={{ marginRight: 20 }} title="Github">
         <FiGithub style={{ fontSize: '25' }} />
       </a>
