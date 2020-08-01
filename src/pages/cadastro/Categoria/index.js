@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -10,21 +11,9 @@ function CadastroCategoria() {
     cor: '#000000',
   };
 
+  const { values, handleChange, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(evento) {
-    const { value } = evento.target;
-    const key = evento.target.getAttribute('name');
-    setValue(key, value);
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
@@ -49,7 +38,7 @@ function CadastroCategoria() {
         event.preventDefault();
         setCategorias([...categorias, values]);
 
-        setValues(valoresIniciais);
+        clearForm(valoresIniciais);
       }}
       >
         <FormField
@@ -86,11 +75,11 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`} style={{ color: categoria.cor }}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`} style={{ color: categoria.cor }}>
+            {categoria.titulo}
             {' '}
             /
-            {categoria.descricao}
+            {categoria.id}
           </li>
         ))}
       </ul>

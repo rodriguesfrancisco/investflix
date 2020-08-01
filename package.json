@@ -18,6 +18,7 @@
   },
   "scripts": {
     "server": "node ./server.js",
+    "dev": "react-scripts start",
     "start": "npm run server",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,16 +1,178 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Front End",
-            "descricao": "O Visual",
-            "cor": "#6BD1FF"
-        },
-        {
-            "id": 2,
-            "nome": "Back End",
-            "descricao": "O Servidor",
-            "cor": "#6BD1FF"
-        }
-    ] 
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Começando a Investir",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Comece por aqui"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Renda Fixa",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Tudo sobre a renda fixa"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Renda Variável",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Ativos da Renda Variável(Ações, FIIs, etc...)"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Seguros",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Ativos Seguros para a Carteira"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Dólar",
+      "cor": "red",
+      "link_extra": {
+        "text": "Invista no exterior"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "COMO COMEÇAR A INVESTIR | O passo a passo COMPLETO",
+      "url": "https://www.youtube.com/watch?v=PtAkxzMhobQ"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "O Guia BÁSICO para começar a INVESTIR com POUCO DINHEIRO!",
+      "url": "https://www.youtube.com/watch?v=dJyJ77GkhBE"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Como investir com pouco dinheiro (na prática!)",
+      "url": "https://www.youtube.com/watch?v=J25ZMPx7J1s"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "GUIA BEM BÁSICO pra começar a investir com POUCO DINHEIRO! Saiba tudo em 10 minutos",
+      "url": "https://www.youtube.com/watch?v=aGGYFxLdFMw"
+    },
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "ONDE COLOCAR A RESERVA DE EMERGÊNCIA COM TAXA SELIC EM 3%",
+      "url": "https://www.youtube.com/watch?v=DKKuk2agHyI"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Siglas Financeiras | O que é CDB, CDI, SELIC, LCA, LCI, LC, FGC, COE? | Você MAIS Rico",
+      "url": "https://www.youtube.com/watch?v=YFtVqRts-Ic"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "TUDO SOBRE RENDA FIXA! LCI, LCA, CDB e LC (ISSO NINGUÉM TE CONTA)",
+      "url": "https://www.youtube.com/watch?v=ysm9ZJ6O67w"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "OS 4 MELHORES INVESTIMENTOS DE RENDA FIXA (mais rentáveis e seguros) | CDB, LC, LCI e LCA",
+      "url": "https://www.youtube.com/watch?v=Bi_j9IdOgzc"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Renda Fixa: entenda o que é com Gustavo Cerbasi",
+      "url": "https://www.youtube.com/watch?v=qdJesl8dFhA"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "10 ATIVOS DE RENDA VARIÁVEL EXPLICADOS EM 10 MIN",
+      "url": "https://www.youtube.com/watch?v=IWHRoycEe78"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "Ações vs Fundos Imobiliários | 3 motivos pelos quais prefiro ações | Você MAIS Rico",
+      "url": "https://www.youtube.com/watch?v=gRJMVyBUY5A"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "RENDA VARIÁVEL: por onde começar a investir e ganhar dinheiro?",
+      "url": "https://www.youtube.com/watch?v=9070iyQoFw4"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Renda Variável: o que é, quais os riscos e como você ganha dinheiro",
+      "url": "https://www.youtube.com/watch?v=LB5uCHXfKbk"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "INVESTI R$ 150,84 EM FUNDO IMOBILIARIO (FII) NA BOLSA DE VALORES | Aprenda na PRÁTICA como COMPRAR",
+      "url": "https://www.youtube.com/watch?v=EejdzG_gIww"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "5 DICAS para INICIANTES em AÇÕES",
+      "url": "https://www.youtube.com/watch?v=I1tvyaaWM7g"
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "titulo": "7 motivos para ter Bitcoin - Você MAIS Rico",
+      "url": "https://www.youtube.com/watch?v=WOk9s1-dVzI"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "Guia completo do investimento em Ouro | Por que e como investir no metal | Você MAIS Rico",
+      "url": "https://www.youtube.com/watch?v=S_B3tAkzp6o"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "O Guia Básico da Bitcoin: o que é, como funciona, e suas vantagens!",
+      "url": "https://www.youtube.com/watch?v=N1NJbhxSr8E"
+    },
+    {
+      "id": 19,
+      "categoriaId": 5,
+      "titulo": "Como investir EM AÇÕES no exterior | INVESTINDO 10 MIL DÓLARES NA PRÁTICA",
+      "url": "https://www.youtube.com/watch?v=JPoET42se1g"
+    },
+    {
+      "id": 20,
+      "categoriaId": 5,
+      "titulo": "Como vou investir no exterior? | Como abrir conta na Avenue | Você MAIS Rico",
+      "url": "https://www.youtube.com/watch?v=Hz3T_WnprQc"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "TUDO sobre REITs - Os primos dos FIIs",
+      "url": "https://www.youtube.com/watch?v=TTbfKEolaYI"
+    },
+    {
+      "titulo": "From $0 To Millionaire | Investing For Beginners",
+      "url": "https://www.youtube.com/watch?v=2KgH0UpiRiw",
+      "categoriaId": 1,
+      "id": 22
+    }
+  ]
 }
